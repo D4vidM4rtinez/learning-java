@@ -20,6 +20,7 @@ public class HelloWorld {
 		if (value) {
 			System.out.println("el numero es una permutacio");
 		} else {
+			
 			System.out.println("el numero no es una permutacio");
 		}
 	}
