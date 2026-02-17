@@ -2,7 +2,7 @@ package programacion;
 
 import java.util.Scanner;
 
-public class HelloWorld {
+public class Practica1Java {
 
 	public static void main(String[] args) {
 		Scanner obj = new Scanner(System.in);
@@ -20,7 +20,6 @@ public class HelloWorld {
 		if (value) {
 			System.out.println("el numero es una permutacio");
 		} else {
-			
 			System.out.println("el numero no es una permutacio");
 		}
 	}
