@@ -1,4 +1,4 @@
-package objetos;
+package practica5_DavidMartinez;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

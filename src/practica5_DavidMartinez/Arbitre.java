@@ -1,4 +1,4 @@
-package objetos;
+package practica5_DavidMartinez;
 
 public class Arbitre extends Persona {
 	private int license;

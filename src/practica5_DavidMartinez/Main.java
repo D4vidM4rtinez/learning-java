@@ -1,4 +1,4 @@
-package objetos;
+package practica5_DavidMartinez;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -7,13 +7,16 @@ public class Main {
 	public static void mostrarPersona(Persona p) {
 		p.mostrarPersona();
 	}
+
 	public static void iterarPersona(Persona[] p) {
 		System.out.println("");
-		for (Persona per : p) {
-			mostrarPersona(per);
+		for (int i = 0; i < p.length; i++) {
+			mostrarPersona(p[i]);
 		}
 		System.out.println("");
+
 	}
+
 	public static final Scanner sc = new Scanner(System.in);
 
 	public static void main(String[] args) {
@@ -45,15 +48,22 @@ public class Main {
 				System.out.print("Introdueix el numero de minuts que vols sumar al temps: ");
 				try {
 					int addTime = sc.nextInt();
-					partit.setTime(partit.getTime() + addTime);
+					if (addTime >= 0) {
+						partit.setTime(partit.getTime() + addTime);
+					} else {
+						System.out.println("la maquina del temps encara no ha estat inventada\n");
+					}
+					
 				} catch (InputMismatchException e) {
 					System.out.println("ERROR: introduce un numero");
 				}
 				break;
 			case 2:
+				System.out.println("+1 al marcador del equip A \n");
 				partit.setMarcadorA(partit.getMarcadorA() + 1);
 				break;
 			case 3:
+				System.out.println("+1 al marcador del equip B \n");
 				partit.setMarcadorB(partit.getMarcadorB() + 1);
 				break;
 			case 4:

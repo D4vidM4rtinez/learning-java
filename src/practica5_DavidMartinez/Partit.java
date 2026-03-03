@@ -1,4 +1,4 @@
-package objetos;
+package practica5_DavidMartinez;
 
 public class Partit {
 	private int time;

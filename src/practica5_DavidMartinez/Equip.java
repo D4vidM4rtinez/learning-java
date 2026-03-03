@@ -1,4 +1,4 @@
-package objetos;
+package practica5_DavidMartinez;
 
 public class Equip {
 	private Jugador[] jugadors = new Jugador[3];
