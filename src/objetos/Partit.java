@@ -73,4 +73,8 @@ public class Partit {
 	public void setArbitros(Arbitre[] arbitros) {
 		this.arbitros = arbitros;
 	}
+	
+	public void resumPartit() {
+		System.out.println("Minut "+this.getTime()+": "+ equipA.getNom()+""+this.getMarcadorA()+" - "+ equipB.getNom()+""+this.getMarcadorB());
+	}
 }

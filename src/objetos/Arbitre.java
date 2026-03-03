@@ -3,6 +3,12 @@ package objetos;
 public class Arbitre extends Persona {
 	private int license;
 
+	/**
+	 * 
+	 * @param age     edad del arbitro
+	 * @param name    nombre del arbitro
+	 * @param license numero de licencia del arbitro
+	 */
 	public Arbitre() {
 		super();
 		license = 0;

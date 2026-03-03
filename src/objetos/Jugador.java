@@ -3,6 +3,12 @@ package objetos;
 public class Jugador extends Persona {
 	private int dorsal;
 
+	/**
+	 * 
+	 * @param age    edad del jugador
+	 * @param name   nombre del jugador
+	 * @param dorsal numero del jugador
+	 */
 	public Jugador() {
 		super();
 		this.dorsal = 0;
@@ -29,6 +35,6 @@ public class Jugador extends Persona {
 
 	@Override
 	public void mostrarPersona() {
-		System.out.println(super.getName() + ", " + super.getAge() + " anys, numero" + this.getDorsal());
+		System.out.println(super.getName() + ", " + super.getAge() + " anys, numero " + this.getDorsal());
 	}
 }
