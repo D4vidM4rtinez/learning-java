@@ -35,6 +35,6 @@ public class Arbitre extends Persona {
 
 	@Override
 	public void mostrarPersona() {
-		System.out.println(super.getName() + ", " + super.getAge() + "anys, numero" + this.getLicense());
+		System.out.println(super.getName() + ", " + super.getAge() + " anys, numero " + this.getLicense());
 	}
 }

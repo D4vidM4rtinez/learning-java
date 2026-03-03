@@ -75,6 +75,6 @@ public class Partit {
 	}
 	
 	public void resumPartit() {
-		System.out.println("Minut "+this.getTime()+": "+ equipA.getNom()+""+this.getMarcadorA()+" - "+ equipB.getNom()+""+this.getMarcadorB());
+		System.out.println("Minut "+this.getTime()+": "+ equipA.getNom()+" "+this.getMarcadorA()+" - "+ equipB.getNom()+" "+this.getMarcadorB());
 	}
 }
