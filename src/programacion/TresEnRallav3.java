@@ -26,7 +26,9 @@ public class TresEnRallav3 {
 		// final int[][] movesp2 = new int[3][2];
 		// { { 0, 0 }, { 0, 0 }, { 0, 0 } };
 
-		final int[][] magicSquare = { { 2, 7, 6 }, { 9, 5, 1 }, { 4, 3, 8 } };
+		final int[][] magicSquare = { { 2, 7, 6 }, 
+									  { 9, 5, 1 }, 
+									  { 4, 3, 8 } };
 
 		final char[] tokens = { 'X', 'O' };
 		byte player = 0;
