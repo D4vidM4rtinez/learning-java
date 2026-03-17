@@ -47,6 +47,11 @@ public class Selector {
 		}
 	}
 
+	/**
+	 * calls private methods to format and print the options and then asks for a choice
+	 * @param sc pass the Scanner as a parameter
+	 * @return a number between 1 and the maximum number of options
+	 */
 	public int choseOption(Scanner sc) {
 		printSelector();
 
